@@ -34,7 +34,7 @@ export default function App() {
           <form>
             <h2 style={{marginBottom: "20px"}}>Help us confirm it's you</h2>
           <HCaptcha
-            sitekey="6798-4224-bbd9-77602cfde553"
+            sitekey="6d393ca7-6798-4224-bbd9-77602cfde553"
             onLoad={onLoad}
             onVerify={setToken}
             ref={captchaRef}
